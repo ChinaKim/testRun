@@ -1,0 +1,9 @@
+<resources>
+    <!--首页菜单距离底部的位置-->
+    <dimen name="marginTobottom">40dp</dimen>
+    <dimen name="list_ver">100dp</dimen>
+    <dimen name="rl_ver">148dp</dimen>
+    <dimen name="aboutus_margin">35dp</dimen>
+    <dimen name="dots_size">8dp</dimen>
+    <dimen name="status_title">35dp</dimen>
+</resources>

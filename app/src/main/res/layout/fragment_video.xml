@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/view_bg_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/rf_video_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:paddingBottom="@dimen/marginTopNext"
+            android:paddingTop="@dimen/marginTopNext"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="@dimen/marginTopNext"
+            android:id="@+id/lv_video_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <include
+        android:id="@+id/loadview"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        layout="@layout/load_view"
+        android:layout_gravity="center" />
+</FrameLayout>

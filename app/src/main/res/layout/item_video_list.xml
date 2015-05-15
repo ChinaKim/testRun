@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android_custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/marginTopNext"
+    android:paddingRight="@dimen/marginTopNext"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <ImageView
+            android:scaleType="centerCrop"
+            android:id="@+id/img_video_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/img_download"
+            android:src="@drawable/download_play"
+            android:layout_gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <com.zhongli.main.zhonglitenghui.custom.RoundProgressBar
+            android:visibility="gone"
+            android:id="@+id/rp_video_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android_custom:roundColor="#D1D1D1"
+            android_custom:roundProgressColor="@android:color/black"
+            android_custom:roundWidth="10dip"
+            android_custom:textIsDisplayable="false"
+            android_custom:radiusSize="50dip"
+            android_custom:textSize="18sp" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_vido_name"
+        android:padding="@dimen/marginTopNext"
+        android:text="视频简介"
+        android:background="@color/text_white_color"
+        style="@style/text_style_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

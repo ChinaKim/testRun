@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">中利腾晖</string>
+    <string name="action_settings">关于</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+    <string name="product_certificate">产品认证</string>
+    <string name="system_certificate">体系认证</string>
+    <string name="about_brief">公司简介</string>
+    <string name="about_culture">企业文化</string>
+    <string name="about_net">销售网络</string>
+    <string name="about_certificate">认证证书</string>
+    <string name="about_craft">设备工艺</string>
+    <string name="about_us">关于我们</string>
+    <string name="about_email">信息咨询</string>
+    <string name="email_title">这是标题</string>
+    <string name="email_context">这是内容</string>
+    <string name="url_map">http://api.map.baidu.com/marker?location=31.561959,120.835779&amp;title=公司位置&amp;content=江苏常熟沙家浜常昆工业园腾晖路1号&amp;output=html</string>
+
+</resources>

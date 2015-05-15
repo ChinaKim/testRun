@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.zhongli.main.zhonglitenghui.custom.VRefresh
+        android:id="@+id/sw_in_ref"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_marginTop="@dimen/marginpadding"
+            android:layout_marginBottom="@dimen/marginpadding"
+            android:gravity="center"
+            android:id="@+id/rl_incase_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </com.zhongli.main.zhonglitenghui.custom.VRefresh>
+
+    <include
+        android:id="@+id/loadview"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        layout="@layout/load_view"
+        android:layout_gravity="center" />
+</FrameLayout>

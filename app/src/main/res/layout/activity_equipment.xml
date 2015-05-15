@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vpAdvertise"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="50dp"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/ib_click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/click"/>
+
+            <TextView
+                android:id="@+id/tv_describe"
+                android:background="@color/about_bg_color"
+                android:layout_width="300dp"
+                android:maxLines="5"
+                android:layout_height="wrap_content"
+                style="@style/text_style_main"
+                />
+
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/click_iv"
+        android:layout_width="@dimen/closeSize"
+        android:layout_height="@dimen/closeSize"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/closePadding"
+        android:layout_marginRight="@dimen/closePadding"
+        android:background="@drawable/ic_close"/>
+</RelativeLayout>

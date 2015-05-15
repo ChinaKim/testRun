@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_white_color">#FFFFFFFF</color>
+    <color name="actionbar_bg_color">#FFFCFCFC</color>
+    <color name="org_text">#FFFDA500</color>
+    <color name="text_grey_color">#FF5A5A5A</color>
+    <color name="actionbar_txt_color">#FF30318C</color>
+    <color name="left_menu_color">#FF354248</color>
+    <color name="title_color">#FFCCCCCC</color>
+    <color name="title_color_un">#60CCCCCC</color>
+    <color name="view_bg_color">#FFF5F5F5</color>
+    <color name="left_menu_check">#FF273541</color>
+    <color name="about_bg_color">#F0FFFFFF</color>
+    <color name="phone_color">#FF4876FF</color>
+    <color name="text_black_color">#FF000000</color>
+    <color name="text_black_level1_color">#FF272727</color>
+    <color name="text_whitecache_color">#96FCFCFC</color>
+    <color name="brief_txt_color">#FF6C6C6C</color>
+</resources>

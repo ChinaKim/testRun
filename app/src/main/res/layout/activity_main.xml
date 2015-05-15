@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/actionbar" />
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <FrameLayout
+            android:id="@+id/fra_main_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+        <LinearLayout
+            android:id="@+id/lin_left_menu"
+            android:background="@color/left_menu_color"
+            android:layout_gravity="start"
+            android:orientation="vertical"
+            android:layout_width="@dimen/left_menu_size"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_margin="@dimen/marginTopNext"
+                android:src="@drawable/logo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <View style="@style/lin_view" />
+
+            <RadioGroup
+                android:orientation="vertical"
+                android:scrollbars="vertical"
+                android:id="@+id/rg_left_menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rd_left_home"
+                    android:text="腾晖首页"
+                    style="@style/tab_bar_item"
+                    android:drawableLeft="@drawable/welcome_home" />
+
+                <RadioButton
+                    android:id="@+id/rd_left_about"
+                    android:checked="true"
+                    android:text="关于腾晖"
+                    style="@style/tab_bar_item"
+                    android:drawableLeft="@drawable/welcome_about" />
+
+                <RadioButton
+                    android:id="@+id/rd_left_case"
+                    android:text="项目案例"
+                    style="@style/tab_bar_item"
+                    android:drawableLeft="@drawable/welcome_project" />
+
+                <RadioButton
+                    android:id="@+id/rd_left_pdu"
+                    android:text="产品系列"
+                    style="@style/tab_bar_item"
+                    android:drawableLeft="@drawable/welcome_product" />
+
+                <RadioButton
+                    android:id="@+id/rd_left_video"
+                    android:text="视频走廊"
+                    style="@style/tab_bar_item"
+                    android:drawableLeft="@drawable/welcome_video" />
+            </RadioGroup>
+        </LinearLayout>
+    </android.support.v4.widget.DrawerLayout>
+</LinearLayout>

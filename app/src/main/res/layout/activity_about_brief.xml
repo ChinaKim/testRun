@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fl_background"
+    android:orientation="vertical">
+
+
+
+    <include layout="@layout/actionbar"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/iv_background"
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+    </LinearLayout>
+
+
+
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="120dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:scrollbarSize="@dimen/scrollsize"
+        android:scrollbarThumbVertical="@drawable/shape_scroll"
+        >
+
+        <LinearLayout
+            android:id="@+id/ll_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_marginTop="@dimen/marginTopNext"
+                android:id="@+id/iv_about_brief"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:singleLine="false"
+                android:text=""
+                android:maxLines="300"
+                android:textSize="12dp"
+                android:lineSpacingMultiplier="1.5"
+                android:textColor="@color/brief_txt_color"
+                style="@style/text_style_main" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!--<ImageButton
+        android:id="@+id/click_iv"
+        android:layout_width="@dimen/closeSize"
+        android:layout_height="@dimen/closeSize"
+        android:layout_gravity="right"
+        android:layout_marginTop="@dimen/closePadding"
+        android:layout_marginRight="@dimen/closePadding"
+        android:background="@drawable/ic_close"/>-->
+    </FrameLayout>
+
+</LinearLayout>

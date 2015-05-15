@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 普通页面的样式 -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat">
+        <!--禁用actionbar-->
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <!--actionbar的背景色-->
+        <item name="colorPrimary">@color/actionbar_bg_color</item>
+        <!--标题的背景色-->
+        <item name="colorPrimaryDark">@color/title_color</item>
+        <!--view背景的颜色-->
+        <item name="android:windowBackground">@color/view_bg_color</item>
+        <!--字体颜色-->
+        <item name="android:textColorPrimary">@color/actionbar_txt_color</item>
+        <!--actionbar按钮的颜色-->
+        <item name="colorControlNormal">@color/actionbar_txt_color</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="windowActionBarOverlay">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@color/actionbar_txt_color</item>
+    </style>
+
+    <style name="AppTheme" parent="AppTheme.Base" />
+    <!--首页的页面样式-->
+    <style name="FirstAppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!--有过场动画页面的样式-->
+    <style name="AminAppTheme" parent="AppTheme">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="MySearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <!--
+    Background for the search query section (e.g. EditText)
+    <item name="queryBackground">...</item>
+    Background for the actions section (e.g. voice, submit)
+    <item name="submitBackground">...</item>
+    Close button icon
+    <item name="closeIcon">...</item>
+    Search button icon
+    <item name="searchIcon">...</item>
+    Go/commit button icon
+    <item name="goIcon">...</item>
+    Voice search button icon
+    <item name="voiceIcon">...</item>
+    Commit icon shown in the query suggestion row
+    <item name="commitIcon">...</item>
+    Layout for query suggestion rows
+    <item name="suggestionRowLayout">...</item>
+        -->
+
+    </style>
+</resources>
+

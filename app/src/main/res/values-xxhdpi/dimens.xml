@@ -1,0 +1,25 @@
+<resources>
+    <!-- 标签页一般的空隙距离 -->
+    <dimen name="marginTopNext">10dp</dimen>
+    <!-- 字体大小 -->
+    <!--特大的字体-->
+    <dimen name="text_size_xh">22sp</dimen>
+    <!--大字体-->
+    <dimen name="text_size_h">20sp</dimen>
+    <!--一般字体-->
+    <dimen name="text_size_m">17sp</dimen>
+    <!--修改后一般字体-->
+    <dimen name="text_size_ml">16sp</dimen>
+    <!--小字体-->
+    <dimen name="text_size_l">15sp</dimen>
+    <!--修改后小字体-->
+    <dimen name="text_size_ll">14sp</dimen>
+    <!--特小字体-->
+    <dimen name="text_size_xl">11sp</dimen>
+    <!-- 文字据周围的距离 -->
+    <dimen name="marginpadding">5dp</dimen>
+    <!-- 首页按钮的大小-->
+    <dimen name="img_first_size">70dp</dimen>
+    <!--左边菜单的宽度-->
+    <dimen name="left_menu_size">200dp</dimen>
+</resources>

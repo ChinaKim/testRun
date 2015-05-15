@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:textSize="@dimen/text_size_m"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:text="国内案例"
+        style="@style/text_style_main" />
+
+    <TextView
+        android:layout_centerVertical="true"
+        android:textSize="@dimen/text_size_m"
+        android:layout_alignParentRight="true"
+        android:text="查看全部>"
+        style="@style/text_style_main" />
+</RelativeLayout>

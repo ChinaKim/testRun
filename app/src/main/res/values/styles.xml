@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--TabHost导航栏的样式-->
+    <style name="page_order_item">
+        <item name="android:textSize">@dimen/text_size_m</item>
+    </style>
+    <!--普通字体样式-->
+    <style name="text_style_main">
+        <item name="android:padding">@dimen/marginpadding</item>
+        <item name="android:textSize">@dimen/text_size_ml</item>
+        <item name="android:textColor">@color/text_grey_color</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <!-- 关于我们 公司名称字体样式-->
+    <style name="text_style_aboutUs_companyName">
+        <item name="android:textSize">@dimen/text_size_xh</item>
+        <item name="android:textColor">@color/actionbar_txt_color</item>
+        <item name="android:paddingBottom">@dimen/marginpadding</item>
+        <item name="android:paddingTop">@dimen/marginpadding</item>
+    </style>
+    <!-- 左侧导航栏的样式 -->
+    <style name="tab_bar_item">
+        <item name="android:background">@drawable/left_menu_seletor</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:paddingTop">18dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingBottom">18dp</item>
+        <item name="android:textColor">@color/text_white_color</item>
+        <item name="android:textSize">@dimen/text_size_m</item>
+    </style>
+    <!--分割线样式-->
+    <style name="lin_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.3dp</item>
+        <item name="android:background">@color/title_color</item>
+    </style>
+
+    <!--公司详细信息样式-->
+    <style name="text_style_details">
+        <item name="android:paddingBottom">@dimen/marginpadding</item>
+        <item name="android:textSize">@dimen/text_size_l</item>
+        <item name="android:textColor">@color/text_grey_color</item>
+        <item name="android:maxLines">15</item>
+    </style>
+
+    <!-- 弹出的Dialog -->
+    <style name="alert_dialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <!--项目案例标题样式-->
+    <style name="text_style_caseTitle">
+        <item name="android:padding">@dimen/marginpadding</item>
+        <item name="android:textSize">@dimen/text_size_ll</item>
+        <item name="android:textColor">@color/text_black_color</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <!--项目案例详细描述样式-->
+    <style name="text_style_caseDescribe">
+        <item name="android:padding">@dimen/marginpadding_describe</item>
+        <item name="android:textSize">@dimen/text_size_xl</item>
+        <item name="android:textColor">@color/text_black_level1_color</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+</resources>

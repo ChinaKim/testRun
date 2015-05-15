@@ -1,0 +1,27 @@
+<resources>
+    <!-- 标签页一般的空隙距离 -->
+    <dimen name="marginTopNext">10dp</dimen>
+    <dimen name="marginTopTitle">2dp</dimen>
+    <!-- 字体大小 -->
+    <!--特大的字体-->
+    <dimen name="text_size_xh">20sp</dimen>
+    <!--大字体-->
+    <dimen name="text_size_h">18sp</dimen>
+    <!--一般字体-->
+    <dimen name="text_size_m">15sp</dimen>
+    <!--修改后一般字体-->
+    <dimen name="text_size_ml">14sp</dimen>
+    <!--小字体-->
+    <dimen name="text_size_l">12sp</dimen>
+    <!--修改后小字体-->
+    <dimen name="text_size_ll">11sp</dimen>
+    <!--特小字体-->
+    <dimen name="text_size_xl">9sp</dimen>
+    <!-- 文字据周围的距离 -->
+    <dimen name="marginpadding">4dp</dimen>
+    <dimen name="marginpadding_title">4dp</dimen>
+    <dimen name="marginpadding_describe">4dp</dimen>
+    <dimen name="closePadding">10dp</dimen>
+    <dimen name="closeSize">20dp</dimen>
+    <dimen name="scrollsize">2sp</dimen>
+</resources>

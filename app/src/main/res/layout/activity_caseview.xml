@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.zhongli.main.zhonglitenghui.custom.ExtendedVerViewPager
+        android:background="@color/text_white_color"
+        android:id="@+id/vp_ver_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ListView
+        android:overScrollMode="never"
+        android:visibility="gone"
+        android:scrollbars="none"
+        android:listSelector="@drawable/list_img_selector"
+        android:paddingLeft="@dimen/marginTopNext"
+        android:paddingRight="@dimen/marginTopNext"
+        android:paddingTop="@dimen/marginpadding"
+        android:paddingBottom="@dimen/marginpadding"
+        android:dividerHeight="@dimen/marginTopNext"
+        android:background="@color/text_whitecache_color"
+        android:id="@+id/lv_ver_view"
+        android:layout_gravity="right"
+        android:divider="@android:color/transparent"
+        android:layout_width="@dimen/list_ver"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="bottom|left"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp">
+
+        <ImageView
+            android:clickable="true"
+            android:visibility="gone"
+            android:layout_marginRight="@dimen/marginTopNext"
+            android:id="@+id/img_caseview_click"
+            android:layout_gravity="center_vertical"
+            android:scaleType="centerCrop"
+            android:src="@drawable/click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:visibility="gone"
+            android:id="@+id/lin_caseview_content"
+            android:background="@color/about_bg_color"
+            android:orientation="vertical"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_caseview_title"
+                android:layout_marginLeft="5dp"
+                style="@style/text_style_caseTitle" />
+
+            <ScrollView
+                android:layout_marginBottom="@dimen/marginTopTitle"
+                android:layout_width="match_parent"
+                android:layout_height="30dp">
+
+                <TextView
+                    android:singleLine="false"
+                    android:maxLines="10"
+                    android:ellipsize="end"
+                    android:id="@+id/tv_caseview_description"
+                    android:layout_marginRight="@dimen/marginTopNext"
+                    android:layout_marginLeft="@dimen/marginTopNext"
+                    style="@style/text_style_caseDescribe"
+                    android:padding="0dp" />
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <ImageButton
+        android:id="@+id/click_iv"
+        android:layout_width="@dimen/closeSize"
+        android:layout_height="@dimen/closeSize"
+        android:layout_gravity="right"
+        android:layout_marginTop="@dimen/closePadding"
+        android:layout_marginRight="@dimen/closePadding"
+        android:background="@drawable/ic_close" />
+</FrameLayout>

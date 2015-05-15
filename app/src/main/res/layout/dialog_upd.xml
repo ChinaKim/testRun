@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/actionbar_bg_color"
+    android:layout_width="300dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_margin="@dimen/marginTopNext"
+            android:src="@drawable/ic_launcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/text_style_main"
+            android:text="自动更新"
+            android:textSize="@dimen/text_size_xh"
+            android:textColor="@color/actionbar_txt_color" />
+
+    </LinearLayout>
+
+    <View
+        android:background="@color/actionbar_txt_color"
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+
+    <TextView
+        android:minHeight="150dp"
+        android:id="@+id/tv_dialog_content"
+        android:textSize="@dimen/text_size_m"
+        android:layout_margin="@dimen/marginTopNext"
+        style="@style/text_style_main"
+        android:singleLine="false"
+        android:maxLines="30" />
+
+    <View style="@style/lin_view" />
+
+    <LinearLayout
+        android:background="@android:color/transparent"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_dialog_ok"
+            android:text="确定"
+            android:textColor="@color/text_white_color"
+            android:textSize="@dimen/text_size_m"
+            android:background="@color/org_text"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:visibility="gone"
+            android:id="@+id/tv_line"
+            android:background="@color/title_color"
+            android:layout_height="match_parent"
+            android:layout_width="0.6dp" />
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/btn_dialog_cancel"
+            android:text="取消"
+            android:textColor="@color/text_grey_color"
+            android:textSize="@dimen/text_size_m"
+            android:background="@android:color/transparent"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

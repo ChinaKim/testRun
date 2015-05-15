@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lin_case_list"
+    android:orientation="horizontal"
+    android:background="@drawable/list_img_selector"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:padding="2dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:id="@+id/img_case_list"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+</LinearLayout>

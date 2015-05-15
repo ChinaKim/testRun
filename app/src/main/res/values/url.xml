@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--项目根目录地址-->
+    <string name="url_root">http://talesun.touch-spring.com/Talesun</string>
+    <string name="url_root1">http://192.168.1.200:8888/Talesun</string>
+    <string name="url_wang">http://192.168.1.134:8080/talesun</string>
+
+    <!--项目分类-->
+    <string name="url_case_type">/app/project-case/type</string>
+    <!--产品分类-->
+    <string name="url_product_type">/app/product-case/type</string>
+    <!--具体的项目-->
+    <string name="url_case_info">/app/project-case/info</string>
+    <!--产品系列具体信息-->
+    <string name="url_product_info">/app/product-case/info</string>
+    <!--认证证书-->
+    <string name="url_cer_list">/app/cer/list</string>
+    <!--视频列表-->
+    <string name="url_video_list">/app/video/list</string>
+    <!--公司简介-->
+    <string name="url_brief">/app/about-us/company-info</string>
+    <!--关于我们信息-->
+    <string name="url_about_us">/app/sales/list</string>
+    <!--设备工艺-->
+    <string name="url_equipment">/app/equipment/list</string>
+</resources>
